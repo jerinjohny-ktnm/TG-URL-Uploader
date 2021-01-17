@@ -1,10 +1,9 @@
 class Translation(object):
-    START_TEXT = """<b>Hello,
-This is a Telegram URL Upload Bot!</b>
+    START_TEXT = """<b>Hello, I Can help you to download files from direct download links.!</b>. \n<b>YouTube Downloads are also Supported.</b>
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+<b>You can set your own Custom Thumbnail for files (optional)</b>
 
-/help for more details..
+<b>See /help for more details..</b>
 
 <b>Made With 💓 by @imjerin</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -34,12 +33,14 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
-Expires on: When heroku stops free services."""
+Expires on: <code>Until heroku stops free services.</code>"""
     HELP_USER = """Instructions Below..
     
-1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
+<b>1. Send url (Link|New Name with Extension).</b>
+
+<b>2. Send Custom Thumbnail (Optional).</b>
+
+<b>3. Select the button.</b>
 
    <b>● SVideo - Give File as video with Screenshots</b>
 
