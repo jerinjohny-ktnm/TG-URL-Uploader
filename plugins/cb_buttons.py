@@ -132,3 +132,29 @@ async def button(bot, update):
         await youtube_dl_call_back(bot, update)
     elif "=" in cb_data:
         await ddl_call_back(bot, update)
+
+
+
+
+
+    elif query.data == "start_data":
+
+        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("HELP", callback_data="help_data"), InlineKeyboardButton("ABOUT", callback_data="about_data"), ],
+                                         [InlineKeyboardButton("CREATOR", url="https://t.me/imjerin")]])
+
+        await query.message.edit_text(translation.START_TEXT.format(query.from_user.mention), reply_markup=keyboard, disable_web_page_preview=True)
+
+    elif query.data == "help_data":
+
+        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("BACK", callback_data="start_data"), InlineKeyboardButton("ABOUT", callback_data="about_data"), ],
+                                         [InlineKeyboardButton("CREATOR", url="https://t.me/imjerin")]])
+
+        await query.message.edit_text(translation.HELP_USER, reply_markup=keyboard, disable_web_page_preview=True)
+
+    elif query.data == "about_data":
+
+        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("BACK", callback_data="help_data"), InlineKeyboardButton("START", callback_data="start_data"), ],
+                                         [InlineKeyboardButton("CREATOR", url="https://t.me/imjerin")]])
+
+        await query.message.edit_text(translation.ABOUT_TEXT, reply_markup=keyboard, disable_web_page_preview=True)
+
