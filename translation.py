@@ -88,6 +88,6 @@ Free users only 1 request per 30 minutes.
     
 📝 <b>Language:</b> <a href='https://python.org'>Python 3</a>
 
-🧰 <b>£Framework:</b> <a href='https://github.com/jerinjohny-ktnm/pyrogram'>Pyrogram</a>
+🧰 <b>Framework:</b> <a href='https://github.com/jerinjohny-ktnm/pyrogram'>Pyrogram</a>
 
-👨🏻‍💻 </b>Developer:</b> <a href='https://t.me/imjerin'>Jerin</a>"""
+👨🏻‍💻 <b>Developer:</b> <a href='https://t.me/imjerin'>Jerin</a>"""
