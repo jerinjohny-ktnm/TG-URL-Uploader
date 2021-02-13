@@ -40,22 +40,9 @@ async def help_user(bot, update):
         text=Translation.HELP_USER,
         parse_mode="html",
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "CREATOR", url="https://t.me/imjerij")
-                    ]
-                ]
-            ),
-            reply_to_message_id=message.message_id
-         )
-     except:
-         pass
+        reply_to_message_id=message.message_id
+     
+   )
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["me"]))
