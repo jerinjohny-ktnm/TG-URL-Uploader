@@ -82,3 +82,14 @@ You can use /rename command after receiving file to rename it with custom thumbn
 Free users only 1 request per 30 minutes.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    ABOUT_TEXT = """<b>MY DETAILS:</b>
+
+🤖 My Name: <a href='https://t.me/klurlup_bot'>URL UPLOADER</a>
+    
+📝 Language: <a href='https://python.org'>Python 3</a>
+
+🧰 Framework: <a href='https://github.org/jerinjohny-ktnm/pyrogram'>Pyrogram</a>
+
+👨🏻‍💻 Developer: <a href='https://t.me/imjerin'>Jerin</a>
+               
+"""
