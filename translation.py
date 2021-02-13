@@ -90,6 +90,4 @@ Free users only 1 request per 30 minutes.
 
 🧰 Framework: <a href='https://github.org/jerinjohny-ktnm/pyrogram'>Pyrogram</a>
 
-👨🏻‍💻 Developer: <a href='https://t.me/imjerin'>Jerin</a>
-               
-"""
+👨🏻‍💻 Developer: <a href='https://t.me/imjerin'>Jerin</a>"""
