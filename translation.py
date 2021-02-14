@@ -3,6 +3,8 @@ class Translation(object):
 
 <b>You can set your own Custom Thumbnail for files (optional)</b>
 
+<b>List of available sites can be found <a href='http://ytdl-org.github.io/youtube-dl/supportedsites.html'>here</a></b>
+
 <b>See /help for more details..</b>
 
 <b>Made With 💓 by @imjerin</b>"""
