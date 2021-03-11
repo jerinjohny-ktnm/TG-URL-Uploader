@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hello, I am <a href='https://telegra.ph/file/6a2f06106dd2a477778b3.jpg'>URL UPLOADER.</a> I Can help you to download files from direct download links.!</b>. \n<u><b>YouTube Downloads are also Supported.</b></u>
+    START_TEXT = """<b>Hello, I am <a href='https://telegra.ph/file/6a2f06106dd2a477778b3.jpg'>URL UPLOADER.</a> I Can help you to download files from direct download links.!</b>. \n\n<u><b>YouTube Downloads are also Supported.</b></u>
 
 <u><b>You can set your own Custom Thumbnail for files (optional)</b></u>
 
