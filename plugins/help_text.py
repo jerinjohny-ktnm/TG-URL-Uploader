@@ -23,8 +23,6 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
@@ -71,14 +69,6 @@ async def start(bot, update):
         text=Translation.START_TEXT,
         reply_to_message_id=update.message_id
     )
-    reply_markup=InlineKeyboardMarkup(
-				[
-					[
-						InlineKeyboardButton("👤 Creator", url="https://t.me/imjerin"),
-						InlineKeyboardButton("⭕ Source ⭕", url="https://github.com/jerinjohny-ktnm/TG-URL-UPLOADER")
-					]
-				]
-			)
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
 async def upgrade(bot, update):
