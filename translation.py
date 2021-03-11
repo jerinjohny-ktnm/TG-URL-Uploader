@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """<b>Hello {message.from_user.mention}, I am <a href='https://telegra.ph/file/6a2f06106dd2a477778b3.jpg'>URL UPLOADER.</a> I Can help you to download files from direct download links.!</b>. \n<b>YouTube Downloads are also Supported.</b>
+    START_TEXT = """<b>Hello <a href="tg://user?id={}">{}</a>, I am <a href='https://telegra.ph/file/6a2f06106dd2a477778b3.jpg'>URL UPLOADER.</a> I Can help you to download files from direct download links.!</b>. \n<b>YouTube Downloads are also Supported.</b>
 
 <b>You can set your own Custom Thumbnail for files (optional)</b>
 
