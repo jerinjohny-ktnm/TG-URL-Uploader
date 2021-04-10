@@ -71,8 +71,8 @@ async def start(bot, update):
 reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚙ HELP ⚙", callback_data="help"),
-                    InlineKeyboardButton("👨🏻‍🎓 ABOUT 👨🏻‍🎓", callback_data="about"),
+                    InlineKeyboardButton("⚙ HELP ⚙", callback_data="help_user"),
+                    InlineKeyboardButton("👨🏻‍🎓 ABOUT 👨🏻‍🎓", callback_data="about_text"),
                 ]
             ]
         ),
