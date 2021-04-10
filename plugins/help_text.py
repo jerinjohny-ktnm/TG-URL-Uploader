@@ -67,6 +67,14 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
+reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('⚙ HELP ⚙", callback_data="help"),
+                    InlineKeyboardButton("👨🏻‍🎓 ABOUT 👨🏻‍🎓", callback_data="about"),
+                ]
+            ]
+        ),
         reply_to_message_id=update.message_id
     )
 
