@@ -1,9 +1,9 @@
 class Translation(object):
-    START_TEXT = """<b>Hello, I am <a href='https://telegra.ph/file/6a2f06106dd2a477778b3.jpg'>URL UPLOADER.</a> I Can help you to download files from direct download links.!</b>. \n\n<i><u><b>YouTube Downloads are also Supported.</b></u></i>
+    START_TEXT = """<b>Hello, I am <a href='https://t.me/uptgbot'>Upload Bot</a>. I Can help you to download files from direct download links.!</b>. \n\n<i><u><b>YouTube Downloads are also Supported.</b></u></i>
 
 <i><u><b>You can set your own Custom Thumbnail for files (optional)</b></u></i>
 
-<b>List of available sites can be found <a href='http://ytdl-org.github.io/youtube-dl/supportedsites.html'>here</a></b>
+<b>List of supported sites can be found <a href='http://ytdl-org.github.io/youtube-dl/supportedsites.html'>here</a></b>
 
 <b>See /help for more details..</b>
 
@@ -20,14 +20,14 @@ URL | filename | username | password"""
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.9 GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Bot : @klurlup_bot"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nBot : @klurlup_bot \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nBot : @uptgbot \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = "<b>Downloaded Using @klurlup_bot 💝</b>"
+    CUSTOM_CAPTION_UL_FILE = "<b>Downloaded Using @uptgbot 💝</b>"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom Thumbnail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -86,12 +86,10 @@ Free users only 1 request per 30 minutes.
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     ABOUT_TEXT = """<b>BOT DETAILS:</b>
 
-🤖 <b>Bot Name:</b> <a href='https://t.me/klurlup_bot'>URL UPLOADER</a>
+🤖 <b>Bot Name:</b> <a href='https://t.me/uptgbot'>Upload</a>
     
 📝 <b>Language:</b> <a href='https://python.org'>Python 3</a>
 
-🧰 <b>Framework:</b> <a href='https://github.com/jerinjohny-ktnm/pyrogram'>Pyrogram</a>
+🧰 <b>Framework:</b> <a href='docs.pyrogram.org'>Pyrogram</a>
 
-👨🏻‍💻 <b>Developer:</b> <a href='https://t.me/imjerin'>Jerin</a>
-
-🔴 <b>Source:</b> <a href='https://github.com/jerinjohny-ktnm/TG-URL-Uploader'>👉 Click Here</a>"""
+👨🏻‍💻 <b>Developer:</b> <a href='https://t.me/imjerin'>Jerin</a>"""
