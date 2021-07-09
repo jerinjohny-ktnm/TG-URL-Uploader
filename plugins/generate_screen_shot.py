@@ -43,7 +43,6 @@ async def generate_screen_shot(bot, update):
         the_real_download_location = await bot.download_media(
             message=update.reply_to_message,
             file_name=download_location,
-            progress=progress_for_pyrogram,
             progress_args=(
                 Translation.DOWNLOAD_START, a.message_id, update.chat.id, c_time
             )
