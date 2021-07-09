@@ -93,3 +93,5 @@ Free users only 1 request per 30 minutes.
 🧰 <b>Framework:</b> <a href='docs.pyrogram.org'>Pyrogram</a>
 
 👨🏻‍💻 <b>Developer:</b> <a href='https://t.me/imjerin'>Jerin</a>"""
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Uploaded Requested Screenshots</b>"
+    SAVED_RECVD_DOC_FILE = "<b>Got the file, now generating screenshots</b>"
